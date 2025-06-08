@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="../odin_suf/premium_vector-1749117901527-d0e505a73805.avif" alt="background image">
+            <h1>Let's Get Started</h1>
+        </div>
+        <form action="" method="get">
+            <fieldset class="form-row">
+                <legend>Sign up form</legend>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Aaron" autocomplete="off" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Warner" autocomplete="off" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="aaronwarneranderson@gmail.com" autocomplete="off" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="10" placeholder="**********" autocomplete="off" required>
+                <div class="form-group">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label">I agree to the <a href="">terms and conditions</a></label>
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </fieldset>  
+        </form>
+    </div>
+</body>
+</html>

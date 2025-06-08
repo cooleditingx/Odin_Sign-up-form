@@ -1,0 +1,176 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 50vw;
+    height: 100vh;
+    border-radius: 0px 15px 15px 0px;
+}
+input {
+    color: white;
+    font-family: monospace;
+    font-size: 1em;
+}
+legend {
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type ="text"] {
+    all: unset;
+    color: white;
+    font-family: monospace;
+    font-size: 1em;
+    width: 90%;
+    border: white 1px solid;
+    padding: 17px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+input:user-valid {
+    border: #8dff6e 1px solid;
+}
+input:user-invalid{
+    border: #ff7d7d 1px solid;
+}
+input[type="email"]:user-valid {
+    all: unset;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    width: 90%;
+    padding: 17px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: #8dff6e 1px solid;
+}
+input[type="email"]:user-invalid {
+    all: unset;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    width: 90%;
+    padding: 17px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: #ff7d7d 1px solid;
+}
+input[type="password"]:user-valid{
+    border: #8dff6e solid 1px;
+}
+input[type="password"]:user-invalid{
+    border: #ff7d7d solid 1px;
+}
+input[type="email"] {
+    all: unset;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    width: 90%;
+    border: white 1px solid;
+    padding: 17px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+input[type ="password"] {
+    all: unset;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    width: 90%;
+    border: white 1px solid;
+    padding: 17px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+input[type ="checkbox"] {
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    margin-right: 1ch;
+}
+
+label {
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+}
+fieldset {
+   /* display: flex;
+    flex-direction: column;*/
+    border: none;
+}
+form {
+    margin: auto;
+    padding: auto;
+    width: 40%;
+    padding: 20px;
+}
+button {
+    all: unset;
+    background-color: #5e3dc3;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    width: 90%;
+    border: white 1px solid;
+    padding: 17px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+a {
+    color: #5e3dc3;
+}
+a:active {
+    color: #4f95ff;
+}
+button:active {
+    background-color: #4f95ff;
+}
+button:hover {
+    color: #dbcfff;
+}
+h1 {
+    background-color: black;
+    opacity: 50%;
+    color: #4f95ff;
+    position: fixed;
+    margin: 0;
+    font-family: monospace;
+    top: 5%;
+    font-size: 10em;
+    width: 45%;
+    height: 90%;
+    border-radius:20px ;
+    left: 35px;
+    display: flex;
+    align-items: center;
+
+}
